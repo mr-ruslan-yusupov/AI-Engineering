@@ -1,4 +1,4 @@
-name: llms
+name: ai_engineering_env
 channels:
   - conda-forge
   - defaults
@@ -39,6 +39,8 @@ dependencies:
     - langchain-core
     - langchain-text-splitters
     - langchain-openai
+    - langchain-anthropic
+    - langchain-ollama
     - langchain-chroma
     - langchain-community
     - feedparser
